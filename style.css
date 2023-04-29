@@ -281,6 +281,12 @@ progress::-webkit-progress-value {
     display: block;
     margin-top: 1rem;
   }
+
+  .contacts-item p span {
+    font-size: 18px;
+    color: #999;
+    margin-left: 10px;
+  }
   
   .contacts-item a:hover {
     text-decoration: underline;
