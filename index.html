@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>       
+        <nav id="navbar">
+            <ul class="nav-list">
+                <li class="nav-link"><a href="#welcome-section">Home</a></li>
+                <li class="nav-link"><a href="#about">About</a></li>
+                <li class="nav-link"><a href="#projects">My work</a></li>
+                <li class="nav-link"><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section class="home" id="welcome-section">
+            
+            <div class="home-img">
+                <img src="https://i.postimg.cc/kX56mCjR/me.png" alt="">
+            </div>
+
+            <div class="home-data">
+                <h1>Hi, I am Andriy Grygorov</h1>
+            <p>Web Developer</p>
+            </div>
+        </section>
+
+
+
+        <section id="about" class="about">
+            <div class="about-box">
+                <div class="about-descr">
+                    <h2>About me</h2>
+                <p>Hello! My name is Andriy. I am a teacher of English and German who has transitioned into a frontend developer role. Over the past three years, I have honed my skills in various programming languages and technologies, completing online courses and personal projects to deepen my understanding of programming concepts and best practices. My portfolio showcases my proficiency in Node.js, JavaScript (React), and HTML/CSS, as well as my ability to develop web applications and automate tasks. As a developer, I bring a unique perspective to programming, emphasizing clear communication, attention to detail, and a focus on user experience. I am currently seeking a position as a frontend developer.  </p>
+                </div>
+            <div class="about-skills">
+                <div class="about-data">
+                    <img src="https://i.postimg.cc/Pf7LHzXn/me-icon.png" class="about-photo" alt="my face">
+                    <h4>FullName:<span>Andriy Grigorov</span></h4>
+                    <h4>Birthday:<span>14.12.1988</span></h4>
+                    <h4>Phone Number:<span>+380688319516</span></h4>
+                    <h4>Email:<span>andygrigs88@gmail.com</span></h4>
+                </div>
+                <div class="about-bar">
+                    <label for="file">HTML & CSS:</label><progress id="file" max="100" value="95"> 95% </progress>
+                    <label for="file">Java Script:</label><progress id="file" max="100" value="70"> 70% </progress>
+                    <label for="file">UI design:</label><progress id="file" max="100" value="63"> 63% </progress>
+                </div>
+             </div>
+            </div>
+        </section>
+
+
+        <section class="my-works" id="projects">
+            <h2 class="my-works-title section-title project-tile">My work</h2>
+            <p class="my-works-subtitle">A selection of my range works </p>
+
+            <div class="portfolio">
+                <a href="" class="portfolio-item">
+                    <img src="https://i.postimg.cc/Zq1KMN1F/pacman.png" class="portfolio-img" alt="">
+                </a> 
+            </div>
+        </section>
+
+
+
+        <section id="contacts" class="contacts">
+            <h2>Contacts</h2>
+            <div class="contacts-cont">
+                <div class="contacts-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Address</h4>
+                    <p>Kyiv, Ukraine</p>
+                    <h4>Current address</h4>
+                    <p>Germany, Hessen</p>
+                    
+                </div>
+                <div class="contacts-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h4>Phone number</h4>
+                    <p>+380688319516 viber, whatsapp, telegram</p>
+                    <p>+4915154781067</p>
+                </div>
+                <div class="contacts-item">
+                    <i class="fab fa-facebook-f"></i>
+                    <a id="profile-link" href="https://www.facebook.com/profile.php?id=100011781524553" target=_blank ><h4>View Profile</h4></a>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+      <p>&copy; 2021 My Website</p>
+    </footer>
+  </body>
+</html>
