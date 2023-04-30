@@ -201,6 +201,42 @@ progress::-webkit-progress-value {
     box-shadow: 1px 1px 5px 3px;
 }
 
+.sertification {
+    background-color: var(--clr-dark-1);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .sertification h2 {
+    font-size: var(--fs-h3);
+    color: var(--clr-light);
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .sertification ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 50%;
+  }
+  
+  .sertification li {
+    margin-bottom: 10px;
+  }
+  
+  .sertification li a {
+    color: var(--clr-light);
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+  }
+  
+  .sertification li a:hover {
+    color: var(--clr-accent);
+  }
+
 .my-works{
     background-color: var(--clr-dark);
     color: var(--clr-light);
