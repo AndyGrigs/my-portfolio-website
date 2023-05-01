@@ -345,22 +345,6 @@ footer {
   }
   
 
-
-
-/* @media (max-width: 950px){
-  
-   .home {
-       flex-direction: column;
-   }
-   .about-skills {
-       flex-direction: column;
-   }
-
-   .contacts-cont{
-       flex-direction: column;
-   }
-} */
-
 @media (max-width: 950px) {
   .home {
     flex-direction: column;
@@ -399,5 +383,28 @@ footer {
   .nav-list .nav-link{
     font-size: small;
   }
+
+
+ 
 }
+
+
+@media only screen and (max-width: 768px) {
+  .about-descr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-exp, .about-article {
+    width: 100%;
+  }
+  
+  .about-bio {
+    margin-top: 20px;
+  }
+}
+
+
+
 
